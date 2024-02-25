@@ -1,0 +1,140 @@
+*{
+    background-color:hsl(60, 15%, 92%);
+    font-family: sans-serif;
+}
+body{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.f0{
+    display:flex;
+    gap:1em;
+    align-items: center;
+}
+.f1{
+    display:flex;
+    gap:1em;
+    align-items: center;
+}
+.f2{
+
+    gap:1em;
+   display: flex;
+    align-items: center;
+}
+.f3{
+    display: flex;
+    justify-content: space-between;
+}
+.f5{
+    display: flex;
+    justify-content: space-between;
+}
+.bit{
+    font-weight: bolder;
+    font-size: 1.1em;
+}
+hr{
+    width:95%;
+
+}
+.menu{
+    cursor: pointer;
+    display: none;
+    font-size: 2em;
+    height: 32px;
+}
+.in-menu{
+    display:none;
+    flex-direction:column;
+    gap:30px;
+    font-size: 1.5em;
+}
+.in-menu a{
+    align-self: center;
+    justify-self: center;
+}
+.close{
+    align-self: flex-end;
+    font-size: 1.5em;
+}
+
+button{
+    margin: 0px;
+    border:0px;
+}
+.m{
+    width: 30px;
+    height: 1.5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+    transform-origin: top left;
+}
+
+.f5 a{
+    text-decoration: underline;
+}
+a{
+    text-decoration: none;
+    color:black;
+    background: local;
+}
+.name{
+    font-size: 25px;
+    font-weight: bold;
+}
+.circle{
+    height: 1em;
+    width: 1em;
+    border-radius: 50%;
+    background-color: rgb(138, 212, 212);
+}
+.f2 a:hover{
+    color: rgb(116, 170, 192);
+}
+.in-menu a:hover {
+    color: rgb(116, 170, 192);
+   
+}
+@media(max-width:924px) and (min-width:619px){
+
+}
+@media(max-width:618px){
+    body{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    img{
+        height: 300px;
+        width: 300px;
+        place-self: center;
+    }
+    .f1{
+        display:flex;
+        gap:1em;
+        align-items: center;
+        flex-direction:column;
+    }
+    .f5{
+        display: flex;
+        gap:1em;
+        flex-direction:column;
+    }
+}
+@media(max-width:800px){
+    .f1{
+        display:flex;
+        gap:1em;
+        align-items: center;
+        flex-direction:column;
+    }
+    .menu{
+        cursor: pointer;
+        display:block;
+    }
+    .li{
+        display: none;
+    }
+
+}
